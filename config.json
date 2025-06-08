@@ -10,7 +10,7 @@
   "google_sheet_name_gpt": "Лист", // Например: "Лист1"
   "google_sheet_name_import": "Июнь", // например: "Май"
 
-  "openai_token": "",
+  "openai_token": "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",
   "openai_model": "gpt-4",
   "openai_promt_file": "promt.txt",
 
