@@ -1,0 +1,24 @@
+{
+  "token": "",
+  "chat_id": 889614996,  // можешь оставить 0, если не знаешь chat_id, он не критичен для первого запуска
+  "google_credentials_file": "handlers/google_sheets/credentials.json",
+
+  "google_form_sheet_id": "1OXNP4Xo368U6TCCOX6x0AUbo0JxjaIo-O_eorlIvjnU",  // не обязательно для теста
+  "google_form_sheet_name": "Лист1",  // не обязательно для теста
+
+  "google_sheet_id": "1lwcmOgViDgKTY_lyMpkO3wqfMigLPo1PKZj_gyXPF64",  // возьми из адреса Google Sheets
+  "google_sheet_name_gpt": "Лист", // Например: "Лист1"
+  "google_sheet_name_import": "Июнь", // например: "Май"
+
+  "openai_token": "",
+  "openai_model": "gpt-4",
+  "openai_promt_file": "promt.txt",
+
+  "schedule_time": "03:17", // время, когда бот формирует итоговый отчет
+
+  "google_form_id": "1FAIpQLSfWfWNabrH-QDcb3xxx_Dc_8vQgGUaz1DAPNRFrwBskbLt1gA",
+  "google_scopes": [
+    "https://www.googleapis.com/auth/forms.responses.readonly",
+    "https://www.googleapis.com/auth/spreadsheets"
+  ]
+}
